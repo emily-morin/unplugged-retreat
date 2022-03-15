@@ -158,19 +158,6 @@ footer .contact {
   margin-bottom: 50px;
 }
 
-/* footer .contact h4 {
-  margin-bottom: 20px;
-} */
-
-/* footer .social {
-  margin-top: 50px; 
-  margin-bottom: 45px;
-}
-
-footer .social h4 {
-  margin-bottom: 20px;
-} */
-
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -412,10 +399,13 @@ faq .content-wrapper {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 768px) {
-  /* ----- Tablet styles here ----- */
+/* =====================================================
+   TABLET STYLES
+   ===================================================== */
 
-/* ------------------ Tablet Styles - Home page ----------------- */
+@media only screen and (min-width: 768px) {
+
+/* ------------------ Tablet - Home page ----------------- */
 
   .content-wrapper {
     max-width: 640px;
@@ -488,10 +478,6 @@ faq .content-wrapper {
   .reviews article div {
     width: 49%;
   }
-
-  .reviews h2 {
-    margin-bottom: 20px;
-  }
   
   /* footer */
 
@@ -518,7 +504,7 @@ faq .content-wrapper {
 }
 
 
-/* ------------------ Tablet Styles - About page ----------------- */
+/* ------------------ Tablet - About page ----------------- */
 
 .mission-content {
   display: flex;
@@ -541,7 +527,7 @@ faq .content-wrapper {
   align-items: flex-start;
 }
 
-/* ------------------ Tablet Styles - FAQ ----------------- */
+/* ------------------ Tablet - FAQ ----------------- */
 
 .faq .content-wrapper {
   justify-content: space-between;
@@ -555,11 +541,132 @@ faq .content-wrapper {
   width: 100%;
 }
 
-/* --------------------------------------- */
+/* =====================================================
+   DESKTOP STYLES
+   ===================================================== */
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop styles here */
+  /* --------------- Desktop - Home page ---------------- */
+  .content-wrapper {
+    max-width: 960px;
+    margin: 50px 0;
+  }
+
+  /* header */
+
+  header {
+    justify-content: space-around;
+    padding: 25px 0;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  header nav {
+    width: 17%;
+  }
+
+  header nav ul {
+    justify-content: space-between;
+  }
+
+  header .header-divider {
+    display: none;
+  }
+
+  /* hero area */ 
+  .hero-area h1 {
+    width: 70%;
+  }
   
+  /* aside */
+
+  aside .content-wrapper {
+    /* display: flex; */
+    justify-content: space-around;
+    /* flex-flow: row wrap;
+    margin: 50px 0; */
+  }
+  /* ^ didn't need properties redundant with tablet styles which were set to the same values */
+
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
+    width: 33.33%;
+  }
+
+  /* features */
+
+  .features h2 {
+    width: 90%;
+  }
+
+  .features article {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap; */
+    flex-basis: 33.33%;
+  }
+  /* ^ commented out properties redundant with tablet styles */
+
+  /* .features .features-item-description {
+    width: 33.33%;
+  } */
+
+  /* reviews */
+
+  /* .reviews article {
+    display: flex;
+    justify-content: space-between;
+  } */
+  /* ^ redundant */
+
+  .reviews article div {
+    width: 49%;
+  }
+
+  /* footer .content-wrapper {
+    width: 88%;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } */
+
+  /* footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: 100%;
+  } */
+  /* ^ all the footer selectors were redundant */
+
+  /* ------------------ Desktop - About ----------------- */
+
+  .mission h2, .contact-section .content-wrapper h2 {
+    width: 96%;
+  }
+  
+  .mission-content p {
+    width: 48%;
+  }
+
+  /* ------------------ Desktop - FAQ ----------------- */
+  
+  .faq-content {
+    flex-basis: 45%;
+  }
+  
+  .faq h2 {
+    width: 100%;
+  }
+
 }
 
 /* ==========================================================================
