@@ -109,22 +109,35 @@ a {
 	color: #e2e3ed;
   text-decoration: none;
 }
- 
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25em;
+  font-weight: 400;
+  color: #e2e3ed;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 400;
+  color: #e2e3ed;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 400;
   margin: 20px 0;
+  color: #e2e3ed;
 }
  
 p {
 	font-size: 0.875em;
+  font-weight: 400;
   line-height: 1.285em;
+  color: #e2e3ed;
 }
  
 /* img {
@@ -145,7 +158,7 @@ address {
 
 .content-wrapper {
   width: 90%;
-  margin: 50px 0;
+  margin: 50px 20px;
 }
 
 /* ------------------ Base Header - Footer Styles ----------------- */
@@ -155,6 +168,7 @@ header, footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #000;
 }
 
 /* Header styles */
@@ -179,7 +193,8 @@ header .header-divider {
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
-} */
+  background-color: #3a3a3a;
+}
 
 header nav {
   display: flex;
@@ -193,6 +208,9 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  font-size: 1.125em;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* Footer styles */
@@ -204,6 +222,7 @@ footer {
 footer .content-wrapper {
   width: 55%;
   margin: 50px 0;
+  text-align: center;
 }
 
 footer p {
@@ -250,25 +269,34 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-/* aside .form-description {
-  margin-top: 30px;
-  margin-bottom: 35px;
-}
-
-aside .form-description h3 {
-  margin-bottom: 8px;
+  background-color: #527158;
 }
 
 aside .form {
-  padding-bottom: 54px;
+  margin-top: 30px;
 }
 
-aside .form input {
-  margin-top: 18px;
-} */
-
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #9d9ea4;
+  font-style: italic;
+  padding: 1em;
+}
+ 
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
 
 /* features */
 
@@ -292,6 +320,7 @@ aside .form input {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  text-align: center;
 }
 
 .features p {
@@ -304,6 +333,7 @@ aside .form input {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background-color: #2a423a;
 }
 
 reviews h2 {
@@ -311,7 +341,6 @@ reviews h2 {
 }
 
 .reviews h3 {
-  width: 50%;
   margin: 20px 0;
 }
 
@@ -321,6 +350,7 @@ reviews h2 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .contact-section {
@@ -328,8 +358,7 @@ reviews h2 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  /* padding: 50px 0;
-  width: 90%; */
+  background-color: #2a423a;
 }
 
 .contact-content h2 {
@@ -346,6 +375,7 @@ reviews h2 {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 faq .content-wrapper {
@@ -358,6 +388,7 @@ faq .content-wrapper {
 
 .faq h2 {
   margin-bottom: 45px;
+  font-weight: 400;
 }
 
 .faq-content {
