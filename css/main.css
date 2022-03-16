@@ -87,6 +87,62 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ----------------- General Styles ------------------- */
+
+html {
+	font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+ 
+ul, 
+ol {
+ list-style-type: none;
+ text-decoration: none;
+}
+ 
+a {
+	color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  margin: 20px 0;
+}
+ 
+p {
+	font-size: 0.875em;
+  line-height: 1.285em;
+}
+ 
+/* img {
+ 
+}
+ 
+figure {
+ 
+} */
+ 
+address {
+ font-style: normal;
+}
+ 
+/* .content-wrapper {
+ 
+} */
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -549,36 +605,34 @@ faq .content-wrapper {
   /* --------------- Desktop - Home page ---------------- */
   .content-wrapper {
     max-width: 960px;
-    margin: 50px 0;
   }
 
   /* header */
 
   header {
-    justify-content: space-around;
-    padding: 25px 0;
+    padding: 15px 0;
   }
 
-  header .content-wrapper {
+  /* header .content-wrapper {
     width: 100%;
     justify-content: space-between;
-  }
-
+  } */
+/* 
   header nav {
     width: 17%;
-  }
+  } */
 
-  header nav ul {
+  /* header nav ul {
     justify-content: space-between;
   }
 
   header .header-divider {
     display: none;
-  }
+  } */
 
   /* hero area */ 
   .hero-area h1 {
-    width: 70%;
+    width: 60%;
   }
   
   /* aside */
@@ -593,7 +647,7 @@ faq .content-wrapper {
 
   aside .content-wrapper .form-description, 
   aside .content-wrapper .form {
-    width: 33.33%;
+    width: 30%;
   }
 
   /* features */
@@ -624,7 +678,7 @@ faq .content-wrapper {
   /* ^ redundant */
 
   .reviews article div {
-    width: 49%;
+    width: 42%;
   }
 
   /* footer .content-wrapper {
@@ -650,18 +704,18 @@ faq .content-wrapper {
   /* ------------------ Desktop - About ----------------- */
 
   .mission h2, .contact-section .content-wrapper h2 {
-    width: 96%;
+    width: 95%;
   }
   
-  .mission-content p {
+  /* .mission-content p {
     width: 48%;
-  }
+  } */
 
   /* ------------------ Desktop - FAQ ----------------- */
   
-  .faq-content {
+  /* .faq-content {
     flex-basis: 45%;
-  }
+  } */
   
   .faq h2 {
     width: 100%;
