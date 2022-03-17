@@ -98,7 +98,7 @@ body {
   font-size: 1em;
   text-align: left;
 }
- 
+
 ul, 
 ol {
  list-style-type: none;
@@ -269,6 +269,10 @@ footer .copyright {
   flex-flow: row wrap;
 }
 
+.hero-area a {
+  display: none;
+}
+
 /* aside */
 
 aside {
@@ -313,6 +317,10 @@ input[type=button] {
   flex-flow: row wrap;
   background: url('../img/homepage-features-image.jpg') center no-repeat #333;
   background-size: cover;
+}
+
+.features a {
+  display: none;
 }
 
 .features h2 {
