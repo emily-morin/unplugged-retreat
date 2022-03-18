@@ -551,6 +551,10 @@ faq .content-wrapper {
     justify-content: space-between;
   }
 
+  header figure {
+    width: 30%;
+  }
+
   header nav {
     width: 20%;
   }
@@ -558,10 +562,6 @@ faq .content-wrapper {
   header nav ul {
     justify-content: space-between;
     font-size: 1em;
-  }
-
-  header figure {
-    width: 30%;
   }
 
   .header-divider {
@@ -675,6 +675,10 @@ faq .content-wrapper {
 
 .mission-content p {
   width: 45%;
+}
+
+.map figure {
+  padding-bottom: 47%;
 }
 
 .contact-section .content-wrapper h2 {
@@ -826,7 +830,7 @@ p {
     width: 95%;
     font-size: 3em;
   }
-  
+
   .contact-content h4 {
     font-size: 1.875em;
   }
