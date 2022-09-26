@@ -216,6 +216,15 @@ header nav ul {
   width: 100%;
 }
 
+header nav ul li a {
+  padding: 5px;
+}
+
+header nav ul li a:hover {
+  background-color: #9d9ea4;
+  color:#202322;
+}
+
 /* Footer styles */
 
 footer {
