@@ -276,8 +276,17 @@ footer .social-icons p {
   border-radius: 50%;
 }
 
+footer .social-icons p:hover {
+  background-color: #e2e3ed;
+}
+
 footer .social-icons p i {
   font-size: 1.125em;
+  padding: 8px;
+}
+
+footer .social-icons p i:hover {
+  color:#202322;
 }
 
 footer .copyright {
